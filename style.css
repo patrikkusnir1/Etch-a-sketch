@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vmin;
+  height: 90vmin;
+  margin: 20px auto;
+  border: 3px solid black;
+  position: relative;
+}
+
+
+.container div {
+  border: 1px solid #555;
+  background-color: white;
+  box-sizing: border-box;
+}
